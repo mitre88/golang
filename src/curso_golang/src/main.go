@@ -22,4 +22,14 @@ func main(){
 //division
 	   z=x/y
 	   fmt.Println(`La division de x/y es : `, z)
-}
+
+//----------------------------------->
+//incremental
+	   var incremento int=50
+	  incremento++
+	   fmt.Println(` el incremento es:`, incremento)
+//decremental
+	   incremento--
+	   fmt.Println(` el decremental es:`, incremento)
+
+	}
