@@ -1,28 +1,25 @@
-// golang cursos:
+// área del cuadrado en Go :
 package main
 
-import "fmt"   
+import "fmt"
+
 func main(){
-// decalaracion de variables
-//declarando constantes---->
-const nombre string=`hola Alejandro Mitre` // una constante no cambia de valor
-const edad int=23
-const peso float32=65.5
-// declaración de variables :
-var nombre_variable string=`hola Alejandro Mitre` // una variable no cambia de valor
-var edad_variable int=23
-var peso_variable float32=65.5
-// presentación en pantalla---------------------->
-fmt.Println(nombre)
-fmt.Println(edad)
-fmt.Println(peso)
-
-fmt.Println(nombre_variable)
-fmt.Println(edad_variable)
-fmt.Println(peso_variable)
+	const baseCuadrado int =10
+	areaCuadrado:= baseCuadrado*baseCuadrado
+	   fmt.Println(`El área del cuadrado es : `, areaCuadrado)
+// operadores --------->
+	   x:=50
+	   y:=10
+//suma
+	   z:=x+y
+	   fmt.Println(`La suma de x+y es : `, z)
+//resta
+	   z=x-y
+	   fmt.Println(`La resta de x-y es : `, z)
+//multiplicacion
+	   z=x*y
+	   fmt.Println(`La multiplicacion de x*y es : `, z)
+//division
+	   z=x/y
+	   fmt.Println(`La division de x/y es : `, z)
 }
-
-
-
-
-
